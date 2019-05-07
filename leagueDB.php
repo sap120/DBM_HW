@@ -18,6 +18,7 @@ sqlsrv_configure('WarningsReturnAsErrors', 0);
 $conn = sqlsrv_connect($server, $c);
 if($conn === false)
 {
+
     echo "error";
     die(print_r(sqlsrv_errors(), true));
 }
