@@ -9,7 +9,7 @@
 <body>
 <h1>Parts Table</h1>
 <?php
-$server = "tcp:techniondbcourse01.database.windows.net,1433";
+$server = "tcp:techniondbcourse01.database.windows.net";
 $user = "sap120";
 $pass = "Qwerty12!";
 $database = "sap120";
